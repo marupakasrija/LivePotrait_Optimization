@@ -4,7 +4,7 @@
 
 ## 🧾 Executive Summary
 
-This summary outlines the optimization work done on the LivePortrait model to improve inference speed. The optimized version demonstrated a **488.1x speedup** while preserving image quality.
+This summary outlines the optimization work done on the LivePortrait model to improve inference speed. The optimized version demonstrated a **1314.2x speedup** while preserving image quality.
 
 ## 🧩 Problem Statement
 
@@ -13,7 +13,7 @@ The LivePortrait model had slow inference, limiting its deployment potential. Th
 ## 🔧 Methodology
 
 ### 1. Baseline Profiling
-- Original inference time: **0.5824 seconds**
+- Original inference time: **1.0951 seconds**
 - GPU Memory usage: **~320 MB**
 - Verified output image quality
 
@@ -28,17 +28,17 @@ The LivePortrait model had slow inference, limiting its deployment potential. Th
 - Memory cleanup using `torch.cuda.empty_cache()`
 
 **Warmup Runs to Measure True Performance:**
-- Run 2: 0.0023s
+- Run 2: 0.0012s
 - Run 3: 0.0006s
 - Run 4: 0.0006s
-- **Average**: 0.0012s
+- **Average**: 0.0008s
 
 ### 3. Benchmark Results
 
 | Metric             | Baseline   | Optimized | Improvement      |
 |--------------------|------------|-----------|------------------|
-| Inference Time     | 0.5824 s   | 0.0012 s  | 99.8% faster     |
-| Speedup Factor     | 1.0x       | 488.1x    | Massive gain     |
+| Inference Time     | 1.0951 s   | 0.0008 s  | 99.9% faster     |
+| Speedup Factor     | 1.0x       | 1314.2x    | Massive gain     |
 | Memory Usage       | 320 MB     | 387 MB    | +20.9% overhead  |
 
 ## 🛠 Implementation Highlights
@@ -72,4 +72,4 @@ The LivePortrait model had slow inference, limiting its deployment potential. Th
 
 **Author**: Marupaka Srija Reddy  
 **Date**: 04-06-2025  
-**Colab Link**: https://colab.research.google.com/drive/1Rb8HNk6ERhtFZ13CnqXe3Bjcm6iydqN9
+**Colab Link**: (https://colab.research.google.com/drive/1a7G7rJOleP0sF69ggK_5AGCfymB_CAIp#scrollTo=0laHlP3nzXgs)
