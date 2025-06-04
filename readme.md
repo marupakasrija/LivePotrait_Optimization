@@ -1,7 +1,5 @@
 # LivePortrait Optimization
 
-**ML Engineering Assignment | IntellifAI Labs**
-
 ## 🎯 Project Overview
 
 This repository presents an optimized implementation of the LivePortrait model, focusing on reducing inference time while maintaining output quality. The optimization efforts achieved a **99.9% speed improvement** (from 1.0951s to 0.0008s) and a **1314.2x speedup factor**, demonstrating production-ready performance tuning techniques.
