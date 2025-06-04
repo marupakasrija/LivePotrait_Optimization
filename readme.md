@@ -15,11 +15,11 @@ This repository contains the optimization work for the LivePortrait model as par
 
 ## 📁 Repository Structure
 
-\`\`\`
+
 ├── LivePortrait_Optimization_IntellifAI_Assignment.ipynb  # Main Colab notebook
 ├── LivePortrait_Optimization_Summary.md                   # Brief summary document
 ├── README.md                                              # This file
-\`\`\`
+
 
 ## 🚀 Quick Start
 
