@@ -17,7 +17,7 @@ This repository presents an optimized implementation of the LivePortrait model, 
 ## 🚀 Quick Start
 
 ### Option 1: Google Colab (Recommended)
-1. Open the notebook: [LivePortrait Optimization Colab](https://colab.research.google.com/drive/1Rb8HNk6ERhtFZ13CnqXe3Bjcm6iydqN9)
+1. Open the notebook: [LivePortrait Optimization Colab](https://colab.research.google.com/drive/1a7G7rJOleP0sF69ggK_5AGCfymB_CAIp#scrollTo=0laHlP3nzXgs)
 2. Enable GPU runtime: `Runtime → Change runtime type → GPU`
 3. Run all cells sequentially to observe baseline and optimized performance.
 
@@ -37,8 +37,8 @@ pip install psutil GPUtil pillow
 
 | Metric             | Baseline  | Optimized | Improvement      |
 |--------------------|-----------|-----------|------------------|
-| Inference Time     | 0.5824 s  | 0.0012 s  | 99.8% faster     |
-| Speedup Factor     | 1.0x      | 488.1x    | 488.1x gain      |
+| Inference Time     | 1.0951 s  | 0.0008 s  | 99.9% faster     |
+| Speedup Factor     | 1.0x      | 1314.2x    | 1314.2x gain      |
 | Memory Usage       | 320 MB    | 387 MB    | +20.9% (Managed) |
 | Output Quality     | ✅        | ✅        | No degradation   |
 
